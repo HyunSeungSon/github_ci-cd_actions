@@ -7,5 +7,5 @@ files:
 hook:
   BeforeInstall:
       - location: /home/ubuntu/build/unzip_shell.sh
-        timeout: 300
+        timeout: 60
         runas: root
